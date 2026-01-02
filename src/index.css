@@ -1,0 +1,15 @@
+@import "tailwindcss";
+
+@theme {
+  --color-primary: #1E3A8A;      /* Deep blue */
+  --color-accent: #6366F1;       /* Indigo accent */
+  --color-bgDark: #0F172A;       /* Main dark navy background */
+  --color-textLight: #E2E8F0;    /* Light text */
+  --color-textMuted: #94A3B8;    /* Muted gray text */
+  --color-gradientStart: #8B5CF6; /* Purple for button */
+  --color-gradientEnd: #3B82F6;   /* Blue for button */
+}
+
+html, body, #root {
+  @apply bg-bgDark text-textLight min-h-screen font-sans;
+}
