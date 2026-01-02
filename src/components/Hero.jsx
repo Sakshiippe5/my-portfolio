@@ -12,12 +12,12 @@ const Hero = () => {
         </div>
 
         <a
-          href="/sakshi_ippe_resume.pdf" // Put your PDF in public folder
-          download="Sakshi_Ippe_Resume.pdf"
-          className="inline-block bg-gradient-to-r from-gradientStart to-gradientEnd text-white font-bold text-xl px-12 py-5 rounded-full hover:scale-105 hover:shadow-2xl transition shadow-lg"
-        >
-          Get Resume
-        </a>
+        href="public/sakshi_ippe_resume.pdf"  // This line
+        download="Sakshi_Ippe_Resume.pdf"
+        className="inline-block bg-gradient-to-r from-gradientStart to-gradientEnd text-white font-bold text-xl px-12 py-5 rounded-full hover:scale-105 hover:shadow-2xl transition shadow-lg"
+      >
+        Get Resume
+      </a>
 
         {/* Sidebar Navigation */}
         <nav className="space-y-4">

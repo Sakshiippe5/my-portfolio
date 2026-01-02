@@ -28,12 +28,15 @@ const About = () => {
         </div>
 
         {/* Placeholder for your photo */}
+        {/* Your Photo */}
         <div className="flex justify-center">
           <div className="relative">
-            <div className="bg-gradient-to-br from-gradientStart to-gradientEnd p-2 rounded-3xl">
-              <div className="bg-bgDark/80 rounded-3xl p-12 text-center">
-                <p className="text-textLight text-2xl">Your Photo Here!<br /><span className="text-sm">(Add a professional headshot for extra impact)</span></p>
-              </div>
+            <div className="bg-gradient-to-br from-gradientStart to-gradientEnd p-3 rounded-full shadow-2xl">
+              <img 
+                src="public/certificates/photo.jpg" 
+                alt="Sakshi Ippe - Full-Stack Developer" 
+                className="w-80 h-80 object-cover rounded-full border-8 border-bgDark"
+              />
             </div>
           </div>
         </div>
