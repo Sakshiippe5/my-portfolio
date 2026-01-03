@@ -33,7 +33,7 @@ const About = () => {
           <div className="relative">
             <div className="bg-gradient-to-br from-gradientStart to-gradientEnd p-3 rounded-full shadow-2xl">
               <img 
-                src="public/certificates/photo.jpg" 
+                src="/certificates/photo.jpg" 
                 alt="Sakshi Ippe - Full-Stack Developer" 
                 className="w-80 h-80 object-cover rounded-full border-8 border-bgDark"
               />
