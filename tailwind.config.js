@@ -7,13 +7,16 @@ export default {
   theme: {
     extend: {
       colors: {
-        primary: '#1E3A8A', // Dark blue for professionalism
-        accent: '#3B82F6', // Blue accent for buttons/links
-        bgLight: '#F9FAFB', // Light background
-        bgDark: '#111827', // Dark mode option if we add later
+        primary: '#1E3A8A',
+        accent: '#6366F1',
+        bgDark: '#0F172A',
+        textLight: '#E2E8F0',
+        textMuted: '#94A3B8',
+        gradientStart: '#8B5CF6',
+        gradientEnd: '#3B82F6',
       },
       fontFamily: {
-        sans: ['Inter', 'sans-serif'], // Modern font
+        sans: ['Inter', 'sans-serif'],
       },
     },
   },
