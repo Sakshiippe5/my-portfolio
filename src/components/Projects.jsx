@@ -11,28 +11,28 @@ const Projects = () => {
       liveLink: "",
       githubLink: ""
     },
-    {
-      title: "Sales Performance Analyzer",
-      tech: "SQL, Python, PostgreSQL, Pandas",
-      description: [
-        "Analyzed multi-region sales data using complex SQL queries involving joins, aggregations, and window functions.",
-        "Defined and evaluated key business KPIs such as revenue growth, average order value, and sales contribution.",
-        "Performed data validation and exploratory data analysis (EDA) using Pandas to ensure accurate insights."
-      ],
-      liveLink: "",
-      githubLink: ""
-    },
-    {
-      title: "Customer Churn Analysis & Business Insights",
-      tech: "Python, SQL, Pandas, NumPy, Matplotlib, Seaborn",
-      description: [
-        "Analyzed customer demographics, tenure, and service usage to identify churn-driving patterns.",
-        "Segmented customers to highlight high-risk churn groups using visual analytics.",
-        "Translated insights into actionable business recommendations for retention and pricing strategies."
-      ],
-      liveLink: "",
-      githubLink: ""
-    },
+     {
+    title: "E-Commerce Sales & Customer Analytics Platform",
+    tech: "SQL, Power BI, DAX, Data Analysis",
+    description: [
+      "Analyzed 100K+ e-commerce transactions using SQL (joins, CTEs, window functions, aggregations) to identify regional sales imbalances affecting 12–15% of revenue distribution.",
+      "Computed key business KPIs including Revenue Trends, Customer Lifetime Value (CLV), and Average Order Value (AOV) with improved reporting accuracy (~10%) through data cleaning and validation.",
+      "Developed an interactive Power BI dashboard with 10+ DAX-based KPI visualizations, enabling self-serve analytics and reducing manual reporting effort by ~15%."
+    ],
+    liveLink: "",  // add Power BI link if available
+    githubLink: "" // optional
+  },
+  {
+    title: "House Price Prediction (End-to-End ML App)",
+    tech: "Python, Scikit-learn, Pandas, NumPy, Streamlit",
+    description: [
+      "Built an end-to-end machine learning pipeline on 20K+ housing records including preprocessing, feature engineering, and scaling.",
+      "Trained and compared multiple regression models (Linear Regression, Ridge, Random Forest, Gradient Boosting) using cross-validation and optimized performance using GridSearchCV (R² ≈ 0.77).",
+      "Developed and deployed an interactive Streamlit web application for real-time house price prediction with a user-friendly UI."
+    ],
+    liveLink: "",  // 🔥 add Streamlit link after deploy
+    githubLink: "" // add repo link
+  },
     {
       title: "Resume Skill Gap Analyzer",
       tech: "Python, NLP, SQL, React.js",

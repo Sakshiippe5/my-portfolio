@@ -19,7 +19,7 @@ const Hero = () => {
         </div>
 
         <a
-          href="/sakshi_ippe_resume.pdf"
+          href="/certificates/Sakshi_Ippe_Resume.pdf"
           download="Sakshi_Ippe_Resume.pdf"
           className="inline-block bg-gradient-to-r from-gradientStart to-gradientEnd text-white font-bold text-xl px-12 py-5 rounded-full hover:scale-105 hover:shadow-2xl transition shadow-lg"
         >
@@ -71,7 +71,7 @@ const Hero = () => {
         <p>
           Final-year engineering student with hands-on experience in 
           <span className="text-textLight font-semibold"> full-stack web development</span> 
-          and a growing focus on <span className="text-textLight font-semibold">data analytics</span>.
+          and a growing focus on <span className="text-textLight font-semibold">AIML,data analytics</span>.
           I build responsive applications and analyze data to support data-driven decisions.
         </p>
 

@@ -8,7 +8,7 @@ const About = () => {
     Hi, I’m Sakshi - a final-year Electronics & Telecommunication Engineering student at 
     PVG’s College of Engineering and Technology, Pune, with a strong interest in 
     <span className="text-textLight font-semibold"> Full-Stack Web Development</span> 
-    and <span className="text-textLight font-semibold"> Data Analytics</span>.
+    and <span className="text-textLight font-semibold">AIML, Data Analytics</span>.
   </p>
 
   <p>
