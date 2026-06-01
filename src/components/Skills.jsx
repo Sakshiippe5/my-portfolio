@@ -1,55 +1,39 @@
 const Skills = () => {
   const skillGroups = [
     {
-      title: "Programming & Web Development",
+      title: "Languages",
+      skills: ["Python", "JavaScript", "TypeScript", "Java"],
+    },
+    {
+      title: "Frontend",
+      skills: ["React.js", "Next.js", "HTML", "CSS", "Zustand"],
+    },
+    {
+      title: "Backend",
+      skills: ["Node.js", "Express.js", "FastAPI", "REST APIs", "PostgreSQL", "SQL"],
+    },
+    {
+      title: "AI / ML",
       skills: [
-        "Java",
-        "Python",
-        "JavaScript",
-        "React.js",
-        "HTML",
-        "CSS",
-        "Node.js",
-        "Express.js"
+        "LLM Integration (Groq, Llama-3)",
+        "RAG Pipelines",
+        "Vector Search (Qdrant)",
+        "Sentence Transformers",
+        "Prompt Engineering",
+        "LangChain",
+        "NLP (spaCy, NLTK, TF-IDF)",
+        "Scikit-Learn",
+        "NumPy",
+        "Pandas",
       ],
     },
     {
-      title: "Data Analytics",
-      skills: [
-        "SQL",
-        "Python (Pandas, NumPy)",
-        "Data Cleaning",
-        "Exploratory Data Analysis (EDA)",
-        "Data Visualization",
-        "Excel"
-      ],
-    },
-    {
-      title: "Databases",
-      skills: [
-        "MySQL",
-        "PostgreSQL"
-      ],
-    },
-    {
-      title: "Tools",
-      skills: [
-        "Git",
-        "GitHub",
-        "Postman",
-        "VS Code",
-        "MySQL Workbench",
-        "Power BI Desktop"
-      ],
+      title: "Tools & DevOps",
+      skills: ["Git", "GitHub", "Docker", "Postman", "VS Code", "CI/CD Basics"],
     },
     {
       title: "CS Fundamentals",
-      skills: [
-        "DSA",
-        "OOP",
-        "Computer Networks",
-        "Database Management Systems"
-      ],
+      skills: ["DSA", "OOP", "DBMS", "Computer Networks"],
     },
   ];
 
