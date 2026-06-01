@@ -1,4 +1,4 @@
-import { Github, Linkedin, Mail, Phone } from 'lucide-react';
+import { Github, Linkedin, Mail, Phone } from "lucide-react";
 
 const Hero = () => {
   return (
@@ -6,18 +6,25 @@ const Hero = () => {
       id="home"
       className="min-h-screen flex flex-col lg:flex-row items-center justify-between px-8 lg:px-20 py-16 gap-12 bg-bgDark"
     >
-      {/* Left Side */}
-      <div className="space-y-12 text-center lg:text-left">
+      {/* LEFT SIDE */}
+      <div className="space-y-12 text-center lg:text-left lg:min-w-[400px]">
+        
+        {/* Name + Title */}
         <div>
-          <h1 className="text-6xl lg:text-8xl font-bold">Sakshi Ippe</h1>
-          <p className="text-3xl lg:text-4xl text-accent mt-4">
+          <h1 className="text-6xl lg:text-7xl font-bold whitespace-nowrap">
+            Sakshi Ippe
+          </h1>
+
+          <p className="text-2xl lg:text-3xl text-accent mt-4 whitespace-nowrap">
             Full-Stack Developer & AI/ML Engineer
           </p>
-          <p className="text-xl text-textMuted mt-2">
+
+          <p className="text-base lg:text-lg text-textMuted mt-2">
             Next.js • React • Node.js • FastAPI • PostgreSQL • Python • LLMs • RAG
           </p>
         </div>
 
+        {/* Resume Button */}
         <a
           href="/certificates/Sakshi_Ippe_Resume.pdf"
           download="Sakshi_Ippe_Resume.pdf"
@@ -26,9 +33,16 @@ const Hero = () => {
           Get Resume
         </a>
 
-        {/* Sidebar Navigation */}
+        {/* Navigation */}
         <nav className="space-y-4">
-          {['ABOUT', 'EXPERIENCE', 'PROJECTS', 'SKILLS', 'CERTIFICATIONS', 'CONTACT'].map((link) => (
+          {[
+            "ABOUT",
+            "EXPERIENCE",
+            "PROJECTS",
+            "SKILLS",
+            "CERTIFICATIONS",
+            "CONTACT",
+          ].map((link) => (
             <a
               key={link}
               href={`#${link.toLowerCase()}`}
@@ -39,7 +53,7 @@ const Hero = () => {
           ))}
         </nav>
 
-        {/* Social Icons */}
+        {/* Social Links */}
         <div className="flex justify-center lg:justify-start space-x-8">
           <a
             href="https://github.com/Sakshiippe5"
@@ -49,6 +63,7 @@ const Hero = () => {
           >
             <Github strokeWidth={1.5} />
           </a>
+
           <a
             href="https://linkedin.com/in/sakshi-ippe-74a459289"
             target="_blank"
@@ -57,33 +72,49 @@ const Hero = () => {
           >
             <Linkedin strokeWidth={1.5} />
           </a>
-          <a href="mailto:sakshiippe05@gmail.com" className="text-4xl hover:text-accent transition">
+
+          <a
+            href="mailto:sakshiippe05@gmail.com"
+            className="text-4xl hover:text-accent transition"
+          >
             <Mail strokeWidth={1.5} />
           </a>
-          <a href="tel:+919356784051" className="text-4xl hover:text-accent transition">
+
+          <a
+            href="tel:+919356784051"
+            className="text-4xl hover:text-accent transition"
+          >
             <Phone strokeWidth={1.5} />
           </a>
         </div>
       </div>
 
-      {/* Right Side: Summary */}
-      <p>
-        Final-year E&TC engineering student with hands-on experience in{' '}
-        <span className="text-textLight font-semibold">full-stack web development</span>{' '}
-        and <span className="text-textLight font-semibold">AI/ML engineering</span> — building
-        RAG pipelines, LLM-integrated apps, and real-time systems.
-      </p>
+      {/* RIGHT SIDE */}
+      <div className="max-w-lg text-lg lg:text-xl leading-relaxed text-textMuted">
+        <p>
+          Final-year E&TC engineering student with hands-on experience in{" "}
+          <span className="text-textLight font-semibold">
+            full-stack web development
+          </span>{" "}
+          and{" "}
+          <span className="text-textLight font-semibold">
+            AI/ML engineering
+          </span>{" "}
+          — building RAG pipelines, LLM-integrated apps, and real-time systems.
+        </p>
 
-      <p className="mt-6">
-        I work across the stack: Next.js + FastAPI + PostgreSQL on the backend,
-        React + TypeScript on the frontend, and Groq/Llama-3 + Qdrant + LangChain
-        for AI features. Experienced with Docker, WebSockets, and agent-based
-        development workflows.
-      </p>
+        <p className="mt-6">
+          I work across the stack: Next.js + FastAPI + PostgreSQL on the backend,
+          React + TypeScript on the frontend, and Groq/Llama-3 + Qdrant +
+          LangChain for AI features. Experienced with Docker, WebSockets, and
+          agent-based development workflows.
+        </p>
 
-      <p className="mt-8 font-semibold text-textLight">
-        Open to Full-Stack, Frontend, Backend, and AI/ML Engineering roles — 2026 Batch
-      </p>
+        <p className="mt-8 font-semibold text-textLight">
+          Open to Full-Stack, Frontend, Backend, and AI/ML Engineering roles —
+          2026 Batch
+        </p>
+      </div>
     </section>
   );
 };
