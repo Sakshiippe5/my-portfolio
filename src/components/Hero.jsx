@@ -11,10 +11,10 @@ const Hero = () => {
         <div>
           <h1 className="text-6xl lg:text-8xl font-bold">Sakshi Ippe</h1>
           <p className="text-3xl lg:text-4xl text-accent mt-4">
-            Full-Stack Developer & Data Analyst
+            Full-Stack Developer & AI/ML Engineer
           </p>
           <p className="text-xl text-textMuted mt-2">
-            React • Node.js • PostgreSQL • SQL • Python • Power BI
+            Next.js • React • Node.js • FastAPI • PostgreSQL • Python • LLMs • RAG
           </p>
         </div>
 
@@ -67,24 +67,23 @@ const Hero = () => {
       </div>
 
       {/* Right Side: Summary */}
-      <div className="max-w-2xl text-lg lg:text-xl leading-relaxed text-textMuted">
-        <p>
-          Final-year engineering student with hands-on experience in 
-          <span className="text-textLight font-semibold"> full-stack web development</span> 
-          and a growing focus on <span className="text-textLight font-semibold">AIML,data analytics</span>.
-          I build responsive applications and analyze data to support data-driven decisions.
-        </p>
+      <p>
+        Final-year E&TC engineering student with hands-on experience in{' '}
+        <span className="text-textLight font-semibold">full-stack web development</span>{' '}
+        and <span className="text-textLight font-semibold">AI/ML engineering</span> — building
+        RAG pipelines, LLM-integrated apps, and real-time systems.
+      </p>
 
-        <p className="mt-6">
-          Skilled in developing web applications using React, Node.js, and PostgreSQL, and 
-          performing data analysis with SQL and Python (Pandas). Experienced in creating 
-          interactive dashboards and extracting insights using Power BI.
-        </p>
+      <p className="mt-6">
+        I work across the stack: Next.js + FastAPI + PostgreSQL on the backend,
+        React + TypeScript on the frontend, and Groq/Llama-3 + Qdrant + LangChain
+        for AI features. Experienced with Docker, WebSockets, and agent-based
+        development workflows.
+      </p>
 
-        <p className="mt-8 font-semibold text-textLight">
-          Open to Full-Stack, Frontend, Backend, and Data Analytics roles — 2026 Batch
-        </p>
-      </div>
+      <p className="mt-8 font-semibold text-textLight">
+        Open to Full-Stack, Frontend, Backend, and AI/ML Engineering roles — 2026 Batch
+      </p>
     </section>
   );
 };
